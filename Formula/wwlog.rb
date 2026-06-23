@@ -5,21 +5,21 @@
 class Wwlog < Formula
   desc "Browse and export your Weight Watchers food log from the terminal"
   homepage "https://github.com/ali5ter/wwlog"
-  version "1.11.0"
+  version "1.12.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ali5ter/wwlog/releases/download/v1.11.0/wwlog_darwin_amd64.tar.gz"
-      sha256 "acbd89cb296d29f2393307d464e6faf0e099373b4dfea2efd7373bdeb9bd55ae"
+      url "https://github.com/ali5ter/wwlog/releases/download/v1.12.0/wwlog_darwin_amd64.tar.gz"
+      sha256 "9709fcd39915eaaabd7a4c2ffd42d3bec3373bdbffe0a49594f5520b6bc7a2ed"
 
       define_method(:install) do
         bin.install "wwlog"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ali5ter/wwlog/releases/download/v1.11.0/wwlog_darwin_arm64.tar.gz"
-      sha256 "138e4be2e00579c974d4fa53292396eeedebb09e626c2644a087f92896046771"
+      url "https://github.com/ali5ter/wwlog/releases/download/v1.12.0/wwlog_darwin_arm64.tar.gz"
+      sha256 "2746c18c04ee841fb81b02611ffa8fc7f18278f039f51be1c4abda2aef33d33b"
 
       define_method(:install) do
         bin.install "wwlog"
@@ -29,15 +29,15 @@ class Wwlog < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ali5ter/wwlog/releases/download/v1.11.0/wwlog_linux_amd64.tar.gz"
-      sha256 "7da429e9c5c0653205ace449a7f2f9882020f8c470c74c4e2dbb850706421c71"
+      url "https://github.com/ali5ter/wwlog/releases/download/v1.12.0/wwlog_linux_amd64.tar.gz"
+      sha256 "7e1d6651b3ee0179fc25a087dd3be03c824f2d3841e0812c49c06c7ec21983f6"
       define_method(:install) do
         bin.install "wwlog"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ali5ter/wwlog/releases/download/v1.11.0/wwlog_linux_arm64.tar.gz"
-      sha256 "6b3b56bc3e7682de9d545064c3e990dfc0e383d7b86a2367add035485acd21fb"
+      url "https://github.com/ali5ter/wwlog/releases/download/v1.12.0/wwlog_linux_arm64.tar.gz"
+      sha256 "52b6d8de6580049072ddc612c5dbcc3ec0a6fccb30c687c9f89ec067fb7bbd83"
       define_method(:install) do
         bin.install "wwlog"
       end
