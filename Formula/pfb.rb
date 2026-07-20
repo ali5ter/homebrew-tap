@@ -1,8 +1,8 @@
 class Pfb < Formula
   desc "Pretty feedback for Bash scripts — lightweight terminal UI components"
   homepage "https://github.com/ali5ter/pfb"
-  url "https://github.com/ali5ter/pfb/archive/refs/tags/v2.5.5.tar.gz"
-  sha256 "733c7dc0e66bd6c127a63269c19a1e0f8d742d88637b933cee0d997e34cd8b45"
+  url "https://github.com/ali5ter/pfb/archive/refs/tags/v2.6.0.tar.gz"
+  sha256 "caf69b9db75712b60c49ba7330fde40d0ab3700c5cdf2d9d85b58d67aff0c20b"
   license "MIT"
 
   def install
