@@ -5,21 +5,21 @@
 class Unspool < Formula
   desc "A subscription-first, Shorts-free YouTube TUI"
   homepage "https://github.com/ali5ter/unspool"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ali5ter/unspool/releases/download/v1.0.0/unspool_darwin_amd64.tar.gz"
-      sha256 "ad42ef8b936181c165ac01e57ccc7b5945f8fe7195c66490bf8e10a60bd9afa5"
+      url "https://github.com/ali5ter/unspool/releases/download/v1.1.0/unspool_darwin_amd64.tar.gz"
+      sha256 "cabd9298d18f4b8f204c2b157b153b3ea1ef9380cbe0ca617bf842fc80e68297"
 
       define_method(:install) do
         bin.install "unspool"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ali5ter/unspool/releases/download/v1.0.0/unspool_darwin_arm64.tar.gz"
-      sha256 "c4cb36c84651e747ff2425583e9e3cff0b842479c11a3cb6a646b2a6f669fd1c"
+      url "https://github.com/ali5ter/unspool/releases/download/v1.1.0/unspool_darwin_arm64.tar.gz"
+      sha256 "41711f59dd9837f6bb8d22c192b3d03ca34b390ff74d8deb66196f62c4cc5f76"
 
       define_method(:install) do
         bin.install "unspool"
@@ -29,15 +29,15 @@ class Unspool < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ali5ter/unspool/releases/download/v1.0.0/unspool_linux_amd64.tar.gz"
-      sha256 "5ea939241207da6dd41e6dcd4f4d5064e80dc311314d076be8f320b53dc73cd9"
+      url "https://github.com/ali5ter/unspool/releases/download/v1.1.0/unspool_linux_amd64.tar.gz"
+      sha256 "eb1692e206b1f2bae4f15cd51982f6b51308d466d1a2b12dbd4fa0e1d8604759"
       define_method(:install) do
         bin.install "unspool"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ali5ter/unspool/releases/download/v1.0.0/unspool_linux_arm64.tar.gz"
-      sha256 "0a110d2a838d4379ff044e07099e8f9131de17f43220c8bc16ec6a9806f06ec1"
+      url "https://github.com/ali5ter/unspool/releases/download/v1.1.0/unspool_linux_arm64.tar.gz"
+      sha256 "d4ac0361a20206fb141f620ae2b5fa3a95f8bd6389b38d9365961b869a3839f7"
       define_method(:install) do
         bin.install "unspool"
       end
