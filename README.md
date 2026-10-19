@@ -11,6 +11,7 @@ brew tap ali5ter/tap
 Then install any available formula:
 
 ```bash
+brew install claude-local  # Claude Code on a local Ollama model
 brew install clu      # terminal interface for commandlineuser.com
 brew install pfb      # pretty feedback for Bash scripts
 brew install unspool  # subscription-first, Shorts-free YouTube TUI
@@ -20,6 +21,7 @@ brew install wwlog    # browse your Weight Watchers food log from the terminal
 Or install directly without a separate tap step:
 
 ```bash
+brew install ali5ter/tap/claude-local
 brew install ali5ter/tap/clu
 brew install ali5ter/tap/pfb
 brew install ali5ter/tap/unspool
@@ -30,6 +32,7 @@ brew install ali5ter/tap/wwlog
 
 | Formula | Description | Source |
 | ------- | ----------- | ------ |
+| [claude-local](Formula/claude-local.rb) | Start Claude Code on a local Ollama model, with nothing written to disk | [ali5ter/claude-local](https://github.com/ali5ter/claude-local) |
 | [clu](Formula/clu.rb) | Terminal interface for the commandlineuser.com CLI catalogue | [ali5ter/clu](https://github.com/ali5ter/clu) |
 | [pfb](Formula/pfb.rb) | Pretty feedback for Bash scripts | [ali5ter/pfb](https://github.com/ali5ter/pfb) |
 | [unspool](Formula/unspool.rb) | Subscription-first, Shorts-free YouTube TUI | [ali5ter/unspool](https://github.com/ali5ter/unspool) |
