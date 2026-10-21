@@ -1,8 +1,8 @@
 class ClaudeLocal < Formula
   desc "Start Claude Code on a local Ollama model, with nothing written to disk"
   homepage "https://github.com/ali5ter/claude-local"
-  url "https://github.com/ali5ter/claude-local/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "ee5e1bbd8dec6b66cf38fde790f9fa0fdfc449d5873f2b6fd86cff38a6cd77df"
+  url "https://github.com/ali5ter/claude-local/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "2c43f936e7104edc48d434b2b180432e8f4831391ce92e63eea5cf26c2d65d2c"
   license "MIT"
 
   depends_on "jq"
