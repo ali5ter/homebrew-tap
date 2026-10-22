@@ -14,7 +14,8 @@ cask "openwebui" do
   caveats <<~EOS
     This app is unsigned. On first launch, macOS may show a warning.
 
-    Right-click /Applications/OpenWebUI.app → Open → click Open in the dialog.
+    In Finder, open the Applications folder, right-click OpenWebUI.app, choose
+    **Open**, then click **Open** in the dialog.
     Or run: xattr -d com.apple.quarantine /Applications/OpenWebUI.app
   EOS
 end
