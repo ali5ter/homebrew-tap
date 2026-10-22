@@ -8,24 +8,18 @@ Homebrew tap for [ali5ter](https://github.com/ali5ter)'s tools.
 brew tap ali5ter/tap
 ```
 
-Then install any available formula:
+Then install any available formula or cask:
 
 ```bash
-brew install claude-local  # Claude Code on a local Ollama model
-brew install clu      # terminal interface for commandlineuser.com
-brew install pfb      # pretty feedback for Bash scripts
-brew install unspool  # subscription-first, Shorts-free YouTube TUI
-brew install wwlog    # browse your Weight Watchers food log from the terminal
+brew install claude-local          # Formula
+brew install --cask openwebui       # Cask
 ```
 
 Or install directly without a separate tap step:
 
 ```bash
 brew install ali5ter/tap/claude-local
-brew install ali5ter/tap/clu
-brew install ali5ter/tap/pfb
-brew install ali5ter/tap/unspool
-brew install ali5ter/tap/wwlog
+brew install ali5ter/tap/openwebui
 ```
 
 ## Formulas
@@ -37,6 +31,12 @@ brew install ali5ter/tap/wwlog
 | [pfb](Formula/pfb.rb) | Pretty feedback for Bash scripts | [ali5ter/pfb](https://github.com/ali5ter/pfb) |
 | [unspool](Formula/unspool.rb) | Subscription-first, Shorts-free YouTube TUI | [ali5ter/unspool](https://github.com/ali5ter/unspool) |
 | [wwlog](Formula/wwlog.rb) | Browse and export your Weight Watchers food log from the terminal | [ali5ter/wwlog](https://github.com/ali5ter/wwlog) |
+
+## Casks
+
+| Cask | Description | Source |
+| ---- | ----------- | ------ |
+| [openwebui](Casks/openwebui.rb) | Desktop app for local OpenWebUI instances | [ali5ter/openwebui-electron](https://github.com/ali5ter/openwebui-electron) |
 
 ## License
 
