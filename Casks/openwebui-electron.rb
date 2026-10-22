@@ -1,6 +1,6 @@
 cask "openwebui-electron" do
-  version "0.1.4"
-  sha256 "433deac42b9e69255b5fbeb072b6fe24ee9e2a3e21ea74fa3d40cfa459da1eb3"
+  version "0.1.5"
+  sha256 "4fd56c9b2112dae5f83506727069206721c887a7664b9ca5f941b6c8ef6f5121"
 
   url "https://github.com/ali5ter/openwebui-electron/releases/download/v#{version}/OpenWebUI-#{version}-arm64.dmg"
   name "OpenWebUI"
