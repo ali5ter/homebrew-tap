@@ -12,14 +12,14 @@ Then install any available formula or cask:
 
 ```bash
 brew install claude-local          # Formula
-brew install --cask openwebui       # Cask
+brew install --cask openwebui-electron   # Cask
 ```
 
 Or install directly without a separate tap step:
 
 ```bash
 brew install ali5ter/tap/claude-local
-brew install ali5ter/tap/openwebui
+brew install ali5ter/tap/openwebui-electron
 ```
 
 ## Formulas
@@ -36,7 +36,7 @@ brew install ali5ter/tap/openwebui
 
 | Cask | Description | Source |
 | ---- | ----------- | ------ |
-| [openwebui](Casks/openwebui.rb) | Desktop app for local OpenWebUI instances | [ali5ter/openwebui-electron](https://github.com/ali5ter/openwebui-electron) |
+| [openwebui-electron](Casks/openwebui-electron.rb) | Desktop app for local OpenWebUI instances | [ali5ter/openwebui-electron](https://github.com/ali5ter/openwebui-electron) |
 
 ## License
 
