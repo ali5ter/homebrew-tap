@@ -1,6 +1,6 @@
 cask "openwebui-electron" do
-  version "0.1.5"
-  sha256 "e6c6f3517ed70880b2c907b501a9bbcec6119028c1f34c5f8493faf2c01af03c"
+  version "0.1.6"
+  sha256 "959e98d1f171d79d3a158623d3f3b308f9a497bf8d48a9054080616f4d996e94"
 
   url "https://github.com/ali5ter/openwebui-electron/releases/download/v#{version}/OpenWebUI-#{version}-arm64.dmg"
   name "OpenWebUI"
@@ -12,10 +12,13 @@ cask "openwebui-electron" do
   uninstall quit: "com.openwebui.desktop"
 
   caveats <<~EOS
-    This app is unsigned. On first launch, macOS may show a warning.
+    This app is ad-hoc signed, not notarized. On first launch, macOS may show a warning.
 
     In Finder, open the Applications folder, right-click OpenWebUI.app, choose
     **Open**, then click **Open** in the dialog.
     Or run: xattr -d com.apple.quarantine /Applications/OpenWebUI.app
+
+    If OpenWebUI runs on another machine, allow the app under
+    System Settings > Privacy & Security > Local Network when macOS asks.
   EOS
 end
