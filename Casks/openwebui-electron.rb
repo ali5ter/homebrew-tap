@@ -1,8 +1,11 @@
 cask "openwebui-electron" do
-  version "0.1.8"
-  sha256 "0617749a6d37420316a7f869e95487ffca96a8c5f01e58847c97e2a397f66eae"
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/ali5ter/openwebui-electron/releases/download/v#{version}/OpenWebUI-#{version}-arm64.dmg"
+  version "0.2.0"
+  sha256 arm:   "7eb40808121234cca483d47217fcdfdfea0166785977a00ddf6436eb6567df22",
+         intel: "ab7e38acfc70112d1e566bd629cb73aaf0e487d834661d8259eb4820054ebd1d"
+
+  url "https://github.com/ali5ter/openwebui-electron/releases/download/v#{version}/OpenWebUI-#{version}-#{arch}.dmg"
   name "OpenWebUI"
   desc "Desktop app for local OpenWebUI instances"
   homepage "https://github.com/ali5ter/openwebui-electron"
