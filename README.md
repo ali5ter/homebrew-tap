@@ -26,6 +26,7 @@ brew install ali5ter/tap/openwebui-electron
 
 | Formula | Description | Source |
 | ------- | ----------- | ------ |
+| [bc-radio](Formula/bc-radio.rb) | A local-first terminal radio for the bands you follow on Bandcamp | [ali5ter/bc-radio](https://github.com/ali5ter/bc-radio) |
 | [claude-local](Formula/claude-local.rb) | Start Claude Code on a local Ollama model, with nothing written to disk | [ali5ter/claude-local](https://github.com/ali5ter/claude-local) |
 | [clu](Formula/clu.rb) | Terminal interface for the commandlineuser.com CLI catalogue | [ali5ter/clu](https://github.com/ali5ter/clu) |
 | [pfb](Formula/pfb.rb) | Pretty feedback for Bash scripts | [ali5ter/pfb](https://github.com/ali5ter/pfb) |
