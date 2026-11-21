@@ -5,21 +5,21 @@
 class BcRadio < Formula
   desc "A local-first terminal radio for the bands you follow on Bandcamp"
   homepage "https://github.com/ali5ter/bc-radio"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/ali5ter/bc-radio/releases/download/v1.3.0/bc-radio_darwin_amd64.tar.gz"
-    sha256 "83d5c32ea822d5c8ffe640edf52358081e3515217a86c18aa43d4c52d681a189"
+    url "https://github.com/ali5ter/bc-radio/releases/download/v1.3.1/bc-radio_darwin_amd64.tar.gz"
+    sha256 "d88ae9b7e4a4bbf0a82400be48b9f9cb315cf2499d71dbeebec846774e180a6d"
 
     define_method(:install) do
       bin.install "bc-radio"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/ali5ter/bc-radio/releases/download/v1.3.0/bc-radio_darwin_arm64.tar.gz"
-    sha256 "25c3a4dd94a34876c22b25393cae017cdbb7fdde01172914bea4973e884fc6f1"
+    url "https://github.com/ali5ter/bc-radio/releases/download/v1.3.1/bc-radio_darwin_arm64.tar.gz"
+    sha256 "00ee698ceb7160913410d43aa0480eb21ea8f5b26ec27ad727dad032820c3d51"
 
     define_method(:install) do
       bin.install "bc-radio"
